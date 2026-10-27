@@ -15,10 +15,10 @@ export default function HeroSection() {
         muted
         playsInline
         className="absolute inset-0 w-full h-full object-cover sm:object-[60%_center] scale-105 pointer-events-none brightness-90 contrast-105"
-        poster="/assets/img/hero/slider-1.jpg"
+        poster="https://res.cloudinary.com/egf3yql9/image/upload/v1793099904/slider-1.jpg"
       >
-        <source src="/assets/video/myvdo.mp4" type="video/mp4" />
-        <source src="/assets/video/highway-drive.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/egf3yql9/video/upload/v1793100268/16760503_1440_2560_60fps.mp4" type="video/mp4" />
+      
       </video>
 
       {/* Cinematic Seamless Gradient - Full width, smooth natural fade */}

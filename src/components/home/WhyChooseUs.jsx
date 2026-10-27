@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
       tagline: "Keep your funds unblocked. Instant digital KYC onboarding.",
       ctaText: "Zero Deposit Fleet",
       ctaHref: "/cars",
-      imageUrl: "/assets/img/car/Kia-Sonet.png",
+      imageUrl: "https://res.cloudinary.com/egf3yql9/image/upload/v1793097745/Kia-Sonet.png",
     },
     {
       badge: "BBI Airport 24/7",
@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
       tagline: "Car waiting at the arrival gate. Zero taxi queue delays.",
       ctaText: "Airport Delivery",
       ctaHref: "/book?location=BBI%20Airport%20(Arrival%20Terminal)",
-      imageUrl: "/assets/img/car/hyundai-verna.png",
+      imageUrl: "https://res.cloudinary.com/egf3yql9/image/upload/v1793097962/hyundai-verna.png",
     },
     {
       badge: "Puri • Konark • Chilika",
@@ -42,7 +42,7 @@ export default function WhyChooseUs() {
       tagline: "No odometer anxiety or per-KM surcharge fees.",
       ctaText: "Outstation Fleet",
       ctaHref: "/cars",
-      imageUrl: "/assets/img/car/mahindra-thar.png",
+      imageUrl: "https://res.cloudinary.com/egf3yql9/image/upload/v1793102175/thar-roxx.avif",
     },
     {
       badge: "30-Point Audit",
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
       tagline: "Mechanically audited, deep-cleaned cabin, Fastag ready.",
       ctaText: "Sanitized Cars",
       ctaHref: "/cars",
-      imageUrl: "/assets/img/car/suzuki-ertiga.png",
+      imageUrl: "https://res.cloudinary.com/egf3yql9/image/upload/v1793097650/suzuki-ertiga.png",
     },
   ];
 

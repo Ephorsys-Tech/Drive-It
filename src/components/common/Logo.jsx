@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const CLOUDINARY_LOGO = "https://res.cloudinary.com/egf3yql9/image/upload/v1793100984/logo5.png";
+const LOCAL_FALLBACK_LOGO = "/assets/img/logo/logo5.png";
+
 export default function Logo({ className = "h-10 sm:h-12 lg:h-13", showText = false, variant = "light" }) {
   return (
     <Link
@@ -9,7 +12,12 @@ export default function Logo({ className = "h-10 sm:h-12 lg:h-13", showText = fa
       className="inline-flex items-center group transition-transform duration-200 hover:scale-[1.03]"
     >
       <img 
-        src="/assets/img/logo/logo5.png" 
+        src={CLOUDINARY_LOGO}
+        onError={(e) => {
+          if (e.currentTarget.src !== window.location.origin + LOCAL_FALLBACK_LOGO) {
+            e.currentTarget.src = LOCAL_FALLBACK_LOGO;
+          }
+        }}
         alt="DriveIT Self Drive Cars" 
         className={`${className} w-auto object-contain transition-transform duration-300 group-hover:scale-105 ${
           variant === 'dark' ? 'bg-white rounded-xl p-1.5 shadow-sm' : ''

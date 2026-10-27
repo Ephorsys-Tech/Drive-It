@@ -43,7 +43,7 @@ export default function Navbar() {
 
         {/* Brand Logo with Smooth Hover */}
         <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-          <Logo className="h-6.5 sm:h-7 md:h-7.5 lg:h-8.5" />
+          <Logo className="h-8 sm:h-9 md:h-10 lg:h-11" />
         </div>
 
         {/* Desktop & Tablet Modern Capsule Nav Island */}

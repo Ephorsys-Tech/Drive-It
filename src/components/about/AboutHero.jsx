@@ -9,7 +9,7 @@ export default function AboutHero() {
       {/* Background Car Image - Clear & Natural with subtle overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/img/hero/slider-2.jpg"
+          src="https://res.cloudinary.com/egf3yql9/image/upload/v1793098915/01.jpg"
           alt="DriveIT Fleet"
           className="w-full h-full object-cover object-center pointer-events-none"
         />

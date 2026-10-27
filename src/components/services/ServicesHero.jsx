@@ -9,7 +9,7 @@ export default function ServicesHero() {
       {/* Background Car Image - Subtle overlay, car in photo clearly visible */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/img/hero/slider-3.jpg"
+          src="https://res.cloudinary.com/egf3yql9/image/upload/v1793099854/slider-3.jpg"
           alt="DriveIT Rental Services"
           className="w-full h-full object-cover object-center pointer-events-none"
         />

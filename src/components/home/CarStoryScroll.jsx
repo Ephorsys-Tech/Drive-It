@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import FlowArt, { FlowSection } from '../ui/story-scroll';
 import { ArrowRight, ShieldCheck, Zap, Sparkles, Phone, Compass, Users } from 'lucide-react';
 
+const THAR_IMAGE = 'https://res.cloudinary.com/egf3yql9/image/upload/v1793104908/abhimanyu-vinod-x429_CPSwjo-unsplash-removebg-preview.png';
+const ERTIGA_IMAGE = 'https://res.cloudinary.com/egf3yql9/image/upload/v1793097650/suzuki-ertiga.png';
+const NEXON_IMAGE = 'https://res.cloudinary.com/egf3yql9/image/upload/v1793097789/tata-nexon.png';
+
 export default function CarStoryScroll() {
   return (
     <FlowArt aria-label="DriveIT Automotive Story Scroll" className="relative z-20">
@@ -68,7 +72,10 @@ export default function CarStoryScroll() {
           <div className="lg:col-span-5 flex flex-col items-center justify-center">
             <div className="relative w-full max-w-sm sm:max-w-md md:max-w-lg">
               <img
-                src="/assets/img/car/mahindra-thar.png"
+                src={THAR_IMAGE}
+                onError={(e) => {
+                  e.currentTarget.src = '/assets/img/car/mahindra-thar.png';
+                }}
                 alt="Mahindra Thar 4x4"
                 className="max-h-36 sm:max-h-52 md:max-h-64 lg:max-h-72 w-auto mx-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300"
               />
@@ -157,7 +164,10 @@ export default function CarStoryScroll() {
           <div className="lg:col-span-5 flex flex-col items-center justify-center">
             <div className="relative w-full max-w-sm sm:max-w-md md:max-w-lg">
               <img
-                src="/assets/img/car/suzuki-ertiga.png"
+                src={ERTIGA_IMAGE}
+                onError={(e) => {
+                  e.currentTarget.src = '/assets/img/car/suzuki-ertiga.png';
+                }}
                 alt="7-Seater Family Car"
                 className="max-h-36 sm:max-h-52 md:max-h-64 lg:max-h-72 w-auto mx-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300"
               />
@@ -236,7 +246,10 @@ export default function CarStoryScroll() {
           <div className="lg:col-span-5 flex flex-col items-center justify-center">
             <div className="relative w-full max-w-sm sm:max-w-md md:max-w-lg">
               <img
-                src="/assets/img/car/tata-nexon.png"
+                src={NEXON_IMAGE}
+                onError={(e) => {
+                  e.currentTarget.src = '/assets/img/car/tata-nexon.png';
+                }}
                 alt="Tata Nexon Safety"
                 className="max-h-36 sm:max-h-52 md:max-h-64 lg:max-h-72 w-auto mx-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300"
               />

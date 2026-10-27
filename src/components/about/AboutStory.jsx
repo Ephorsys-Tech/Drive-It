@@ -12,11 +12,11 @@ export default function AboutStory() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="/assets/img/about/01.jpg"
+                  src="https://res.cloudinary.com/egf3yql9/image/upload/v1793098999/03.jpg"
                   alt="DriveIT Fleet Bhubaneswar"
                   className="w-full h-64 object-cover rounded-3xl shadow-lg"
                   onError={(e) => {
-                    e.currentTarget.src = '/assets/img/service/01.jpg';
+                    e.currentTarget.src = 'https://res.cloudinary.com/egf3yql9/image/upload/v1793098966/02.jpg';
                   }}
                 />
                 <div className="bg-red-600 text-white p-6 rounded-3xl shadow-lg text-center">
@@ -35,7 +35,7 @@ export default function AboutStory() {
                   alt="Customer Handover"
                   className="w-full h-64 object-cover rounded-3xl shadow-lg"
                   onError={(e) => {
-                    e.currentTarget.src = '/assets/img/service/02.jpg';
+                    e.currentTarget.src = 'https://res.cloudinary.com/egf3yql9/image/upload/v1793098966/02.jpg';
                   }}
                 />
               </div>

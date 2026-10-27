@@ -4,7 +4,7 @@ export const servicesData = [
     title: 'Airport Self-Drive Rental',
     subtitle: 'Biju Patnaik International Airport (BBI)',
     icon: 'Plane',
-    image: '/assets/img/service/01.jpg',
+    image: 'https://res.cloudinary.com/egf3yql9/image/upload/v1793098915/01.jpg',
     description: 'Get your car delivered directly at the arrival terminal of Bhubaneswar Airport. Zero wait time, sanitized car ready when your flight lands.',
     highlights: [
       'Terminal Doorstep Handover',
@@ -19,7 +19,7 @@ export const servicesData = [
     title: 'Outstation Odisha Road Trips',
     subtitle: 'Puri, Konark, Chilika, Daringbadi & More',
     icon: 'Compass',
-    image: '/assets/img/service/02.jpg',
+    image: 'https://res.cloudinary.com/egf3yql9/image/upload/v1793098966/02.jpg',
     description: 'Explore scenic Odisha on your own schedule. Unlimited KMs packages available so you can drive freely without counting miles.',
     highlights: [
       'Unlimited Kilometers Option',
@@ -34,7 +34,7 @@ export const servicesData = [
     title: 'Doorstep Delivery & Pickup',
     subtitle: 'Anywhere in Bhubaneswar & Cuttack',
     icon: 'MapPin',
-    image: '/assets/img/service/03.jpg',
+    image: 'https://res.cloudinary.com/egf3yql9/image/upload/v1793098999/03.jpg',
     description: 'We deliver your preferred car to your home, hotel, office, or railway station and pick it up when you are done. Ultimate convenience.',
     highlights: [
       'Home & Hotel Delivery in 60 mins',
@@ -49,7 +49,7 @@ export const servicesData = [
     title: 'Wedding & Event Fleets',
     subtitle: 'Luxury SUVs & Sedans for Celebrations',
     icon: 'Award',
-    image: '/assets/img/service/04.jpg',
+    image: 'https://res.cloudinary.com/egf3yql9/image/upload/v1793099026/04.jpg',
     description: 'Make your wedding or event grand with our premium Thar, Scorpio-N, Verna, and luxury SUV fleet. Well-groomed vehicles for photoshoots and guest transfers.',
     highlights: [
       'Chauffeur or Self-drive Options',
@@ -64,7 +64,7 @@ export const servicesData = [
     title: 'Monthly Car Subscription',
     subtitle: 'Drive Without EMI or Down Payment',
     icon: 'Calendar',
-    image: '/assets/img/service/05.jpg',
+    image: 'https://res.cloudinary.com/egf3yql9/image/upload/v1793099076/05.jpg',
     description: 'Looking for a car for weeks or months? Enjoy zero maintenance costs, free periodic servicing, comprehensive insurance, and swap flexibility.',
     highlights: [
       'Zero Down Payment / No EMI Lock-in',

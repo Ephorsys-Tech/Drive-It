@@ -10,7 +10,7 @@ export default function HowItWorks() {
       aria-label="Scenic Roadtrip Showcase"
       className="relative w-full min-h-[500px] sm:min-h-[580px] lg:min-h-[680px] bg-fixed bg-center bg-cover bg-no-repeat overflow-hidden flex items-center justify-start text-left"
       style={{
-        backgroundImage: "url('/assets/img/car/mycar.jpg')",
+        backgroundImage: "url('https://res.cloudinary.com/egf3yql9/image/upload/v1793101384/mycar.jpg')",
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
