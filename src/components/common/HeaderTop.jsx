@@ -27,11 +27,11 @@ export default function HeaderTop() {
           </a>
 
           <a 
-            href="mailto:info@driveit.co.in" 
+            href="mailto:driveitcarandbike@gmail.com" 
             className="hidden sm:inline-flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors"
           >
             <Mail className="w-3.5 h-3.5 text-red-500" />
-            <span>info@driveit.co.in</span>
+            <span>driveitcarandbike@gmail.com</span>
           </a>
 
           <a

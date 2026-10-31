@@ -14,6 +14,9 @@ import Cars from './pages/Cars';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import BookCar from './pages/BookCar';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import HelpSupport from './pages/HelpSupport';
 
 export default function App() {
   return (
@@ -38,6 +41,20 @@ export default function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/book" element={<BookCar />} />
             <Route path="/book-a-car" element={<BookCar />} />
+
+            {/* Terms & Conditions */}
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/terms-and-conditions" element={<Terms />} />
+
+            {/* Privacy Policy */}
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
+
+            {/* Help & Support */}
+            <Route path="/help" element={<HelpSupport />} />
+            <Route path="/help-and-support" element={<HelpSupport />} />
+            <Route path="/support" element={<HelpSupport />} />
+
             {/* Fallback route */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
