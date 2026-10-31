@@ -145,6 +145,15 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  to="/help"
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  className="hover:text-red-400 transition-colors font-medium text-slate-300"
+                >
+                  Help & Support
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/book"
                   onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                   className="hover:text-red-400 transition-colors"
@@ -196,8 +205,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-red-500 shrink-0" />
-                <a href="mailto:info@driveit.co.in" className="hover:text-white transition-colors">
-                  info@driveit.co.in
+                <a href="mailto:driveitcarandbike@gmail.com" className="hover:text-white transition-colors">
+                  driveitcarandbike@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -213,9 +222,27 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <p>© {new Date().getFullYear()} DriveIT Self Drive Cars. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <Link to="/about" className="hover:text-slate-400">Terms & Conditions</Link>
-            <Link to="/about" className="hover:text-slate-400">Privacy Policy</Link>
-            <Link to="/contact" className="hover:text-slate-400">Help & Support</Link>
+            <Link
+              to="/terms"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="hover:text-slate-300 transition-colors"
+            >
+              Terms & Conditions
+            </Link>
+            <Link
+              to="/privacy"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="hover:text-slate-300 transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              to="/help"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="hover:text-slate-300 transition-colors"
+            >
+              Help & Support
+            </Link>
           </div>
         </div>
 

@@ -27,9 +27,9 @@ export default function ContactInfoCards() {
     {
       icon: Mail,
       title: 'Email Us',
-      detail: 'info@driveit.co.in',
+      detail: 'driveitcarandbike@gmail.com',
       sub: 'For corporate contracts & receipts',
-      href: 'mailto:info@driveit.co.in',
+      href: 'mailto:driveitcarandbike@gmail.com',
       btnText: 'Send Email',
       color: 'text-blue-500',
       bg: 'bg-blue-50'

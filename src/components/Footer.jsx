@@ -52,7 +52,7 @@ export default function Footer() {
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
             <div className="inline-block">
-              <Logo className="h-14" />
+              <Logo className="h-12" variant="dark" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               DriveIT is Bhubaneswar's most trusted self-drive car rental company. Experience absolute privacy, zero security deposit options, and doorstep delivery across Odisha.
@@ -96,7 +96,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-bold text-base mb-4 tracking-tight">Quick Links</h4>
+            <h4 className="text-white font-bold text-base mb-4 tracking-tight">Navigation</h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
               <li>
                 <Link to="/" className="hover:text-red-400 transition-colors">Home Page</Link>
@@ -114,6 +114,9 @@ export default function Footer() {
                 <Link to="/contact" className="hover:text-red-400 transition-colors">Contact Us</Link>
               </li>
               <li>
+                <Link to="/help" className="hover:text-red-400 transition-colors">Help & Support</Link>
+              </li>
+              <li>
                 <Link to="/book" className="hover:text-red-400 transition-colors">Book A Car</Link>
               </li>
             </ul>
@@ -121,7 +124,7 @@ export default function Footer() {
 
           {/* Popular Cars */}
           <div>
-            <h4 className="text-white font-bold text-base mb-4 tracking-tight">Popular Cars</h4>
+            <h4 className="text-white font-bold text-base mb-4 tracking-tight">Top Self-Drive Cars</h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
               <li>
                 <Link to="/book?car=mahindra-thar" className="hover:text-red-400 transition-colors">Mahindra Thar 4x4</Link>
@@ -160,8 +163,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-red-500 shrink-0" />
-                <a href="mailto:info@driveit.co.in" className="hover:text-white transition-colors">
-                  info@driveit.co.in
+                <a href="mailto:driveitcarandbike@gmail.com" className="hover:text-white transition-colors">
+                  driveitcarandbike@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -177,9 +180,9 @@ export default function Footer() {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <p>© {new Date().getFullYear()} DriveIT Self Drive Cars. All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <Link to="/about" className="hover:text-slate-400">Terms & Conditions</Link>
-            <Link to="/about" className="hover:text-slate-400">Privacy Policy</Link>
-            <Link to="/contact" className="hover:text-slate-400">Help & Support</Link>
+            <Link to="/terms" className="hover:text-slate-400">Terms & Conditions</Link>
+            <Link to="/privacy" className="hover:text-slate-400">Privacy Policy</Link>
+            <Link to="/help" className="hover:text-slate-400">Help & Support</Link>
           </div>
         </div>
 
